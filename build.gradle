@@ -41,8 +41,3 @@ jar {
     from("LICENSE")
 }
 
-publishingConvention {
-    registerPublication {
-        it.artifactId = archives_base_name
-    }
-}
